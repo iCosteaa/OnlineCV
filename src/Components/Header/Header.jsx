@@ -1,19 +1,20 @@
 import React, { Component } from "react";
 import "./Header.css";
 
-export default class Header extends Component {
+export class Header extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-dark bg-dark mb-3">
-          <a className="navbar-brand" href="#">
-            <h1>
-              Total Items{" "}
-              <span className="badge badge-secondary">
-                {this.props.totalItems}
-              </span>
-            </h1>
-          </a>
+        <nav className="navbar">
+          <button class="btn" id="aboutBtn">
+            About
+          </button>
+          <button class="btn" id="hireBtn">
+            <span>HIRE ME</span>
+          </button>
+          <button class="btn" id="otherBtn">
+            Other Projects
+          </button>
         </nav>
       </React.Fragment>
     );
