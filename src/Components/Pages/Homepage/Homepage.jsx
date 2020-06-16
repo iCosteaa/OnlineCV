@@ -8,6 +8,7 @@ export class Homepage extends Component {
         <h1 id="name">
           <span id="nameSpan">COSTEA IOANA</span>
         </h1>
+        <span id="desc">Unemployed and hungry student</span>
       </div>
     );
   }

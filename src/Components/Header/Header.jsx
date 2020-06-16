@@ -6,13 +6,13 @@ export class Header extends Component {
     return (
       <React.Fragment>
         <nav className="navbar">
-          <button class="btn" id="aboutBtn">
+          <button className="btn" id="aboutBtn">
             About
           </button>
-          <button class="btn" id="hireBtn">
+          <button className="btn" id="hireBtn">
             <span>HIRE ME</span>
           </button>
-          <button class="btn" id="otherBtn">
+          <button className="btn" id="otherBtn">
             Other Projects
           </button>
         </nav>

@@ -6,7 +6,7 @@ import { Homepage } from "./Components/Pages/Homepage/Homepage.jsx";
 class App extends Component {
   render() {
     return (
-      <div classname="app">
+      <div className="app">
         <Header />
         <Homepage />
       </div>
