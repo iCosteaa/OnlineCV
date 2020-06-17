@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./Header.css";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { Homepage } from "../Pages/Homepage/Homepage.jsx";
-
 import Contact from "../Pages/Contact/contact.jsx";
 import Other from "../Pages/Other/other.jsx";
 
