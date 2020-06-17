@@ -1,11 +1,15 @@
 import React, { Component } from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 export class Header extends Component {
   render() {
     return (
       <React.Fragment>
         <nav className="navbar">
+          <button className="btn" id="homeBtn">
+            Home
+          </button>
           <button className="btn" id="aboutBtn">
             About
           </button>
