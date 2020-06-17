@@ -1,9 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
+import "./about.css";
 
 class About extends Component {
-  state = {};
   render() {
-    return <div>Hi</div>;
+    return <h1>Hi</h1>;
   }
 }
 

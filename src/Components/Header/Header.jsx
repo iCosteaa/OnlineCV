@@ -1,26 +1,35 @@
 import React, { Component } from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { Homepage } from "../Pages/Homepage/Homepage.jsx";
+import About from "../Pages/About/about.jsx";
+import Contact from "../Pages/Contact/contact.jsx";
+import Other from "../Pages/Other/other.jsx";
 
 export class Header extends Component {
   render() {
     return (
-      <React.Fragment>
+      <Router>
         <nav className="navbar">
           <button className="btn" id="homeBtn">
-            Home
+            <Link to="/">Home</Link>
           </button>
           <button className="btn" id="aboutBtn">
-            About
+            <Link to="/about">About</Link>
           </button>
           <button className="btn" id="hireBtn">
-            <span>HIRE ME</span>
+            <Link to="/contact">HIRE ME</Link>
           </button>
           <button className="btn" id="otherBtn">
-            Other Projects
+            <Link to="/other">Other Projects</Link>
           </button>
         </nav>
-      </React.Fragment>
+
+        <Route exact path="/" component={Homepage} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/other" component={Other} />
+      </Router>
     );
   }
 }
