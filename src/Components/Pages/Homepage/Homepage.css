@@ -50,7 +50,8 @@
 }
 
 #aboutContent {
-  margin: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 #aboutText {
   font-size: 20px;
@@ -73,4 +74,34 @@
 .placesImg {
   width: 400px;
   height: 500px;
+}
+
+#birth {
+  position: relative;
+}
+
+#firstCircle {
+  height: 200px;
+  width: 400px;
+  border-radius: 0 0 200px 200px;
+  background: rgb(108, 209, 255);
+  position: absolute;
+}
+
+#secondCircle {
+  height: 160px;
+  width: 330px;
+  border-radius: 0 0 160px 160px;
+  background: green;
+  position: absolute;
+  margin-left: 35px;
+}
+
+#thirdCircle {
+  height: 115px;
+  width: 250px;
+  border-radius: 0 0 120px 120px;
+  background: rgb(253, 255, 112);
+  position: absolute;
+  margin-left: 75px;
 }

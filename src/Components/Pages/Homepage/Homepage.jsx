@@ -23,6 +23,12 @@ export class Homepage extends Component {
           <div id="aboutTitle"></div>
           <h1 id="aboutH1">About me</h1>
           <div id="aboutContent">
+            <div id="birth">
+              <div id="firstCircle"></div>
+              <div id="secondCircle"></div>
+              <div id="thirdCircle"></div>
+            </div>
+
             <div id="aboutText">
               <div id="places">
                 <img src="http://www.rleonardi.com/interactive-resume/image/building-a.png"></img>
