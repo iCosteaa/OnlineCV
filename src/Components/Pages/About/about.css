@@ -1,0 +1,175 @@
+#aboutWrapper {
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 170px;
+}
+
+#aboutTitle {
+  background-color: rgb(216, 60, 60);
+  height: 7px;
+}
+
+#aboutH1 {
+  padding-top: 1px;
+  font-family: "Oswald", sans-serif;
+  padding-left: 40px;
+}
+
+#aboutContent {
+  padding-left: 40px;
+  margin-right: 40px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#aboutText {
+  font-size: 20px;
+  height: auto;
+}
+
+#birth {
+  position: relative;
+  margin-left: 450px;
+}
+
+#firstCircle {
+  height: 200px;
+  width: 400px;
+  border-radius: 0 0 200px 200px;
+  background-color: rgb(35, 211, 196);
+  position: absolute;
+}
+
+#secondCircle {
+  height: 160px;
+  width: 330px;
+  border-radius: 0 0 160px 160px;
+  background: rgb(255, 41, 41);
+  position: absolute;
+  margin-left: 35px;
+}
+
+#thirdCircle {
+  height: 115px;
+  width: 250px;
+  border-radius: 0 0 120px 120px;
+  background: rgb(117, 103, 103);
+  position: absolute;
+  margin-left: 75px;
+}
+.dmy {
+  display: flex;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+}
+
+#year {
+  margin-top: 160px;
+}
+
+#month {
+  margin-top: 25px;
+}
+#day {
+  margin-top: 117px;
+}
+#born {
+  margin-top: 10px;
+  color: white;
+}
+
+#aboutSummary {
+  display: flex;
+  width: 400px;
+  height: auto;
+  font-size: 25px;
+  font-family: "Architects Daughter", cursive;
+  font-family: "Krub", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Pontano Sans", sans-serif;
+}
+
+#places {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  margin-left: 170px;
+}
+
+#petrosani {
+  content: url("http://www.rleonardi.com/interactive-resume/image/building-a.png");
+  width: auto;
+  height: auto;
+}
+
+#cluj {
+  content: url("http://www.rleonardi.com/interactive-resume/image/building-a.png");
+  width: auto;
+  height: auto;
+}
+
+#placeData {
+  font-family: "Architects Daughter", cursive;
+  font-family: "Krub", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Pontano Sans", sans-serif;
+  justify-content: center;
+  display: flex;
+  font-size: 21px;
+  text-align: center;
+}
+
+p > span {
+  color: red;
+  font-weight: bold;
+}
+
+#circles {
+  padding-top: 100px;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dataCircle {
+  -moz-border-radius: 50px/50px;
+  border-radius: 60px/60px;
+  border: solid 7px #f00;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+}
+#ambition {
+  border: solid 7px rgb(107, 107, 107);
+}
+#intelligence {
+  border: solid 7px rgb(35, 211, 196);
+}
+#aboutAndCircles {
+  flex-direction: row;
+}
+
+.percentageTrait,
+.nameTrait {
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+}
+
+.nameTrait {
+  font-size: 17px;
+}
+
+#eq {
+  font-size: 70px;
+}
