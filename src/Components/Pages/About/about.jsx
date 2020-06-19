@@ -41,19 +41,19 @@ export class About extends Component {
             </div>
             <div id="circles">
               <div className="dataCircle">
-                <span className="percentageTrait">40%</span>
+                <span className="percentageTrait">30%</span>
                 <span className="nameTrait">Creativity</span>
               </div>
               <div className="dataCircle" id="ambition">
                 <span className="percentageTrait" id="ambitionP">
-                  30%
+                  20%
                 </span>
                 <span className="nameTrait" id="ambitionT">
                   Ambition
                 </span>
               </div>
               <div className="dataCircle" id="intelligence">
-                <span className="percentageTrait">30%</span>
+                <span className="percentageTrait">50%</span>
                 <span className="nameTrait">Intelligence</span>
               </div>
               <span id="eq">=</span>
@@ -67,8 +67,8 @@ export class About extends Component {
             <div id="petrosani"></div>
             <div id="placeData">
               <p>
-                I am from <span>Petroșani</span> but I currently live in{" "}
-                <span>Cluj</span>
+                I am from <span>Petroșani</span> but I currently live in
+                <span> Cluj-Napoca</span>
               </p>
             </div>
             <div id="cluj"></div>
