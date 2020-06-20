@@ -2,9 +2,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Ranga&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Krub:wght@300&family=Oswald:wght@300&family=Pontano+Sans&display=swap");
 
+#nameWrapper {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  flex-direction: column;
+  padding-top: 150px;
+}
+
 #name {
-  margin-left: 250px;
-  margin-top: 120px;
   font-size: 10em;
   padding: 0;
   color: black;
@@ -19,5 +31,4 @@
   font-size: 35px;
   color: black;
   font-family: "Ranga", cursive;
-  margin-left: 280px;
 }
