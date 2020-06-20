@@ -9,7 +9,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
   width: 80%;
   height: 500px;
   top: 0;
@@ -22,6 +21,8 @@
 
 #contactH1 {
   font-size: 40px;
+  color: rgb(230, 0, 0);
+  width: 20%;
 }
 
 .contactSpan {

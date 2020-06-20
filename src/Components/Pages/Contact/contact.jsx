@@ -9,7 +9,9 @@ class Contact extends Component {
     return (
       <div id="contactWrapper">
         <div id="contactContent">
-          <h1 id="contactH1">CONTACT ME</h1>
+          <div id="contactH1">
+            <h1>CONTACT ME</h1>
+          </div>
           <span className="contactSpan">
             If you are be interested in offering me a job, which I would very
             much appreciate, then you can contact me on these platforms:
