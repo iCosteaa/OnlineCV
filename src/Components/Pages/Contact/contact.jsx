@@ -18,14 +18,14 @@ class Contact extends Component {
           </span>
           <div className="icons">
             <a href="https://www.facebook.com/ioana.andrada.3">
-              <img src={Facebook} className="icon" />
+              <img src={Facebook} className="icon" alt="facebook" />
             </a>
 
             <a href="https://www.linkedin.com/in/ioana-andrada-costea-9b161b190/">
-              <img src={Linkedin} className="icon" />
+              <img src={Linkedin} className="icon" alt="linkedin" />
             </a>
             <a href="https://www.instagram.com/w1stea/?hl=ro">
-              <img src={Instagram} className="icon" />
+              <img src={Instagram} className="icon" alt="instagram" />
             </a>
           </div>
           <span className="contactSpan" id="secondSpan">

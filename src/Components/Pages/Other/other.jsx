@@ -13,19 +13,19 @@ class Other extends Component {
           <h1 className="otherH1">OTHER PROJECTS</h1>
         </div>
         <div className="contentAPI">
-          <h1>API Website</h1>
+          <h1 className="h1API">API Website</h1>
           <a href="https://github.com/Boo1122/IMDB">
-            <img src={one} className="apiIMG"></img>
+            <img src={one} alt="one" className="apiIMG"></img>
           </a>
 
           <a href="https://github.com/Boo1122/IMDB">
-            <img src={three} className="apiIMG"></img>
+            <img src={three} alt="three" className="apiIMG"></img>
           </a>
           <a href="https://github.com/Boo1122/IMDB">
-            <img src={two} className="apiIMG"></img>
+            <img src={two} alt="two" className="apiIMG"></img>
           </a>
           <a href="https://github.com/Boo1122/IMDB">
-            <img src={five} className="apiIMG"></img>
+            <img src={five} alt="five" className="apiIMG"></img>
           </a>
         </div>
       </div>

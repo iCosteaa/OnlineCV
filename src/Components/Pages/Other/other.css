@@ -21,6 +21,10 @@ h1 {
   font-size: 30px;
 }
 
+.h1API {
+  color: rgb(95, 95, 95);
+}
+
 .otherH1 {
   font-size: 40px;
 }
@@ -28,4 +32,6 @@ h1 {
 .apiIMG {
   width: 600px;
   height: 300px;
+  margin: 3px;
+  border: 1px solid rgb(207, 0, 0);
 }
