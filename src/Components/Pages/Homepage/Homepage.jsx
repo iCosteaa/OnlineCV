@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Homepage.css";
 import { About } from "../About/about.jsx";
 import { Education } from "../Education/education.jsx";
+import { Profession } from "../Profession/profession.jsx";
 
 export class Homepage extends Component {
   render() {
@@ -18,6 +19,7 @@ export class Homepage extends Component {
         </div>
         <About />
         <Education />
+        <Profession />
       </div>
     );
   }

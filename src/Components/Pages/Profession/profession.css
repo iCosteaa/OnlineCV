@@ -1,0 +1,54 @@
+.profWrapper {
+  padding-top: 50px;
+  padding-left: 40px;
+  width: 100%;
+  height: 900px;
+}
+
+.profH1 {
+  font-family: "Oswald", sans-serif;
+}
+
+.profContent {
+  padding-top: 30px;
+}
+
+.miniWrap {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.desc {
+  margin-left: 50px;
+}
+
+.title {
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+}
+
+.details {
+  font-size: 20px;
+}
+
+.period {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+}
+
+.year {
+  background: rgb(35, 211, 196);
+  width: 200px;
+}
+
+#firstTitle {
+  font-weight: 900;
+  font-size: 25px;
+  color: rgb(117, 103, 103);
+}
