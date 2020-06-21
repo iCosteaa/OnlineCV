@@ -1,0 +1,31 @@
+.otherWrapper {
+  width: 100%;
+  height: 100%;
+  font-family: "Oswald", sans-serif;
+  padding: 50px;
+}
+
+.otherContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.contentAPI {
+  padding-left: 20px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.otherH1 {
+  font-size: 40px;
+}
+
+.apiIMG {
+  width: 600px;
+  height: 300px;
+}

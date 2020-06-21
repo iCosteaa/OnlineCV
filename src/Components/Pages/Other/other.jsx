@@ -1,9 +1,35 @@
 import React, { Component } from "react";
 import "./other.css";
+import one from "./1.png";
+import two from "./2.png";
+import three from "./3.png";
+import five from "./5.png";
 
 class Other extends Component {
   render() {
-    return <h1>hello</h1>;
+    return (
+      <div className="otherWrapper">
+        <div className="otherContent">
+          <h1 className="otherH1">OTHER PROJECTS</h1>
+        </div>
+        <div className="contentAPI">
+          <h1>API Website</h1>
+          <a href="https://github.com/Boo1122/IMDB">
+            <img src={one} className="apiIMG"></img>
+          </a>
+
+          <a href="https://github.com/Boo1122/IMDB">
+            <img src={three} className="apiIMG"></img>
+          </a>
+          <a href="https://github.com/Boo1122/IMDB">
+            <img src={two} className="apiIMG"></img>
+          </a>
+          <a href="https://github.com/Boo1122/IMDB">
+            <img src={five} className="apiIMG"></img>
+          </a>
+        </div>
+      </div>
+    );
   }
 }
 
