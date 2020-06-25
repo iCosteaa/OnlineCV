@@ -9,17 +9,23 @@
 .contentWrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
-.Skills {
-  width: 45%;
+.firstSkills {
+  width: 50%;
   padding-top: 50px;
+}
+
+.secondBox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  margin: 20px;
 }
 
 .line {
   height: 25px;
-
   margin: 0 auto 10px;
   line-height: 25px;
   font-size: 14px;
@@ -111,13 +117,14 @@
   align-items: center;
   justify-content: center;
   position: relative;
+  height: 80%;
 }
 
 #english {
   display: flex;
   background-color: rgb(35, 211, 196);
-  width: 200px;
-  height: 200px;
+  width: 28%;
+  height: 55%;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -126,50 +133,47 @@
   left: 10%;
   z-index: 1;
   position: absolute;
-  font-size: 20px;
 }
 
 .language {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #romanian {
   display: flex;
   background-color: rgb(211, 208, 35);
-  width: 160px;
-  height: 160px;
+  width: 27%;
+  height: 52%;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  top: 15%;
-  left: 50%;
+  top: 5%;
+  left: 65%;
   z-index: 1;
   position: absolute;
-  font-size: 20px;
 }
 
 #norwegian {
   display: flex;
   background-color: rgb(168, 168, 168);
-  width: 170px;
-  height: 170px;
+  width: 23%;
+  height: 45%;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  top: 60%;
-  left: 0;
+  top: 65%;
+  left: 5%;
   z-index: 1;
   position: absolute;
-  font-size: 20px;
 }
 
 #french {
   display: flex;
   background-color: rgb(219, 28, 28);
-  width: 150px;
-  height: 150px;
+  width: 20%;
+  height: 40%;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -178,5 +182,4 @@
   left: 60%;
   z-index: 1;
   position: absolute;
-  font-size: 20px;
 }
