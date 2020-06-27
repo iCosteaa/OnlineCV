@@ -39,7 +39,7 @@
 .page6 {
   transform-style: preserve-3d;
   position: absolute;
-  width: 200px;
+  width: 180px;
   height: 100%;
   top: 0;
   left: 0;
@@ -58,6 +58,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
+  text-align: center;
 }
 
 .back,
