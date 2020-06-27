@@ -16,7 +16,7 @@ class Contact extends Component {
             If you are be interested in offering me a job, which I would very
             much appreciate, then you can contact me on these platforms:
           </span>
-          <div className="icons">
+          <div className="iconsCon">
             <a href="https://www.facebook.com/ioana.andrada.3">
               <img src={Facebook} className="icon" alt="facebook" />
             </a>
