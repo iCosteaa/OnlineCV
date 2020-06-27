@@ -16,6 +16,11 @@
   padding-top: 20px;
 }
 
+.miniWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 #aboutContent {
   padding-left: 40px;
   margin-right: 40px;
@@ -181,4 +186,8 @@ p > span {
 
 #eq {
   font-size: 70px;
+}
+
+.icons {
+  height: 30px;
 }

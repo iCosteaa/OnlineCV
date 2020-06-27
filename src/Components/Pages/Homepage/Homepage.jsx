@@ -4,6 +4,7 @@ import { About } from "../About/about.jsx";
 import { Education } from "../Education/education.jsx";
 import { Profession } from "../Profession/profession.jsx";
 import { Skills } from "../Skills/skills.jsx";
+import { Hobbies } from "../Hobbies/hobbies.jsx";
 
 export class Homepage extends Component {
   render() {
@@ -22,6 +23,7 @@ export class Homepage extends Component {
         <Education />
         <Profession />
         <Skills />
+        <Hobbies />
       </div>
     );
   }

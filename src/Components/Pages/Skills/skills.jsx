@@ -49,46 +49,6 @@ export class Skills extends Component {
                 <span>Beginner</span>
               </div>
             </div>
-
-            <div className="Skills" id="tableSkills">
-              <table>
-                <tbody>
-                  <tr>
-                    <td>
-                      <span>Listening</span>
-                    </td>
-                    <td>
-                      <span>Problem Solving</span>
-                    </td>
-                    <td>
-                      <span>Responsability</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <span>Clarity and Concision</span>
-                    </td>
-                    <td>
-                      <span>Adaptability</span>
-                    </td>
-                    <td>
-                      <span>Commitment</span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <span>Teamwork</span>
-                    </td>
-                    <td>
-                      <span>Handling Criticism</span>
-                    </td>
-                    <td>
-                      <span>Positivity</span>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
           </div>
         </div>
       </div>
@@ -97,3 +57,5 @@ export class Skills extends Component {
 }
 
 export default Skills;
+
+//Icons made by <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
