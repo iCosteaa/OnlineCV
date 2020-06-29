@@ -12,11 +12,11 @@ export class Hobbies extends Component {
       <div className="hobbiesWrapper">
         <h1 className="hobH1">Hobbies</h1>
         <div className="iconsHob">
-          <img src={book} />
-          <img src={drawing} />
-          <img src={gaming} />
-          <img src={gym} />
-          <img src={travel} />
+          <img src={book} alt="book" />
+          <img src={drawing} alt="drawing" />
+          <img src={gaming} alt="gaming" />
+          <img src={gym} alt="gym" />
+          <img src={travel} alt="travel" />
         </div>
       </div>
     );
