@@ -20,13 +20,13 @@
 
 @media (max-width: 575.98px) {
   .iconsHob img {
-    height: 50px;
+    height: 40px;
   }
 }
 
 @media (max-width: 767.98px) {
   .iconsHob img {
-    height: 90px;
+    height: 70px;
   }
 }
 
