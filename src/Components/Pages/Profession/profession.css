@@ -52,3 +52,24 @@
   font-size: 25px;
   color: rgb(117, 103, 103);
 }
+
+@media (max-width: 575.98px) {
+  .period {
+    width: 40%;
+  }
+  .year {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 991.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
