@@ -64,14 +64,14 @@ export class About extends Component {
             </div>
           </div>
           <div id="places">
-            <div id="petrosani"></div>
+            <div className="petCJ"></div>
             <div id="placeData">
               <p>
                 I am from <span>Petroșani</span> but I currently live in
                 <span> Cluj-Napoca</span>
               </p>
             </div>
-            <div id="cluj"></div>
+            <div className="petCJ"></div>
           </div>
         </div>
       </div>
