@@ -149,17 +149,21 @@ p > span {
   text-align: center;
   margin: 10px;
 }
+
 #ambition {
   border: solid 7px rgb(107, 107, 107);
   margin-top: -40px;
 }
+
 #intelligence {
   border: solid 7px rgb(35, 211, 196);
   margin-top: 50px;
 }
+
 #aboutAndCircles {
   flex-direction: row;
 }
+
 #total {
   width: 170px;
   height: 170px;
@@ -192,35 +196,27 @@ p > span {
   }
 
   #birth {
-    position: relative;
     margin-left: 400px;
   }
 
   #firstCircle {
     height: 170px;
     width: 350px;
-    border-radius: 0 0 200px 200px;
-    background-color: rgb(35, 211, 196);
-    position: absolute;
   }
 
   #secondCircle {
     height: 140px;
     width: 290px;
-    border-radius: 0 0 160px 160px;
-    background: rgb(255, 41, 41);
-    position: absolute;
+
     margin-left: 32px;
   }
 
   #thirdCircle {
     height: 110px;
     width: 220px;
-    border-radius: 0 0 120px 120px;
-    background: rgb(117, 103, 103);
-    position: absolute;
     margin-left: 70px;
   }
+
   .dmy {
     font-size: 20px;
   }
@@ -243,17 +239,10 @@ p > span {
   }
 
   .dataCircle {
-    -moz-border-radius: 50px/50px;
-    border-radius: 90px/90px;
     border: solid 4px #f00;
     width: 120px;
     height: 120px;
-    padding: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+
     margin: 5px;
   }
 
@@ -277,9 +266,7 @@ p > span {
     border: 4px solid red;
     width: 140px;
     height: 140px;
-    padding: 10px;
-    -moz-border-radius: 70px/70px;
-    border-radius: 100px/100px;
+
     margin-top: -35px;
   }
 
@@ -288,9 +275,6 @@ p > span {
   }
 
   #places {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     margin-top: 90px;
     margin-left: -100px;
   }
@@ -327,33 +311,23 @@ p > span {
   #firstCircle {
     height: 150px;
     width: 270px;
-    border-radius: 0 0 200px 200px;
-    background-color: rgb(35, 211, 196);
-    position: absolute;
   }
 
   #secondCircle {
     height: 120px;
     width: 220px;
-    border-radius: 0 0 160px 160px;
-    background: rgb(255, 41, 41);
-    position: absolute;
+
     margin-left: 25px;
   }
 
   #thirdCircle {
     height: 90px;
     width: 160px;
-    border-radius: 0 0 120px 120px;
-    background: rgb(117, 103, 103);
-    position: absolute;
+
     margin-left: 55px;
   }
 
   .dmy {
-    display: flex;
-    justify-content: center;
-    font-family: "Oswald", sans-serif;
     font-size: 15px;
   }
 
@@ -371,7 +345,6 @@ p > span {
 
   #born {
     margin-top: 10px;
-    color: white;
     margin-bottom: 0px;
   }
 
@@ -386,17 +359,9 @@ p > span {
   }
 
   .dataCircle {
-    -moz-border-radius: 50px/50px;
-    border-radius: 90px/90px;
     border: solid 4px #f00;
     width: 100px;
     height: 100px;
-    padding: 12px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
     margin: 5px;
   }
 
@@ -420,16 +385,10 @@ p > span {
     border: 4px solid red;
     width: 120px;
     height: 120px;
-    padding: 10px;
-    -moz-border-radius: 70px/70px;
-    border-radius: 100px/100px;
     margin-top: -20px;
   }
 
   #places {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     margin-top: 75px;
     height: 10%;
     margin-left: -100px;
@@ -470,17 +429,10 @@ p > span {
   }
 
   .dataCircle {
-    -moz-border-radius: 50px/50px;
-    border-radius: 90px/90px;
     border: solid 2px #f00;
     width: 100%;
     height: 100%;
-    padding: 12px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
     margin: 5px;
   }
 
@@ -505,15 +457,10 @@ p > span {
     width: 340px;
     height: 100%;
     padding: 10px;
-    -moz-border-radius: 70px/70px;
-    border-radius: 100px/100px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   #places {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     margin-top: 20px;
     height: 10%;
     margin-left: 100px;
@@ -540,33 +487,21 @@ p > span {
   #firstCircle {
     height: 90px;
     width: 170px;
-    border-radius: 0 0 200px 200px;
-    background-color: rgb(35, 211, 196);
-    position: absolute;
   }
 
   #secondCircle {
     height: 70px;
     width: 130px;
-    border-radius: 0 0 160px 160px;
-    background: rgb(255, 41, 41);
-    position: absolute;
     margin-left: 20px;
   }
 
   #thirdCircle {
     height: 50px;
     width: 80px;
-    border-radius: 0 0 120px 120px;
-    background: rgb(117, 103, 103);
-    position: absolute;
     margin-left: 45px;
   }
 
   .dmy {
-    display: flex;
-    justify-content: center;
-    font-family: "Oswald", sans-serif;
     font-size: 10px;
   }
 
@@ -584,7 +519,5 @@ p > span {
 
   #born {
     margin-top: 5px;
-    color: white;
-    margin-bottom: 0px;
   }
 }
