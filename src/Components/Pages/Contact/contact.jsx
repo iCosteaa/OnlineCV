@@ -32,7 +32,7 @@ class Contact extends Component {
             Or you can send me an e-mail!
           </span>
           <span className="contactSpan" id="email">
-            ioana.andrada.3@gmail.com
+            a.ioana.costea.3@gmail.com
           </span>
         </div>
       </div>
