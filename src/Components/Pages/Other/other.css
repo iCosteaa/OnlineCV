@@ -60,9 +60,6 @@ h1 {
   }
 }
 
-@media (max-width: 991.98px) {
-}
-
 @media (max-width: 1199.98px) {
   .otherH1 {
     font-size: 40px;
