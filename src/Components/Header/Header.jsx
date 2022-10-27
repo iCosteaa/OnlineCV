@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Header.css";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import { Homepage } from "../Pages/Homepage/Homepage.jsx";
 import Contact from "../Pages/Contact/contact.jsx";
 import Other from "../Pages/Other/other.jsx";
@@ -28,10 +28,11 @@ export class Header extends Component {
             </button>
           </Link>
         </nav>
-
-        <Route exact path="/" component={Homepage} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/other" component={Other} />
+      <Routes>
+        <Route exact path="/" element={<Homepage/>} />
+        <Route exact path="/contact" element={<Contact/>} />
+        <Route exact path="/other" element={<Other/>} />
+      </Routes>
       </Router>
     );
   }
